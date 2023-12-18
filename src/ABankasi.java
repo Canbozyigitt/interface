@@ -9,7 +9,7 @@ public class ABankasi  implements IBanka{
 
     }
         public boolean connect(String ipAdress){
-            System.out.println("kullanıcı ip "+ ipAdress);
+            System.out.println("Kullanıcı ip "+ ipAdress);
             System.out.println("makine ip "+this.hostIpAdress);
             System.out.println(this.bankaAdi+" bağlanıldı");
             return true;
